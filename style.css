@@ -1,3 +1,13 @@
-.Search-bar {
-    display:  ;
-  }
+#logo {
+  width: 28px;
+    height: 50rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+
+}
+
+.title {
+  color: black;
+  margin-left: 5px;
+}
