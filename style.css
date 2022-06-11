@@ -26,6 +26,7 @@
 
 }
 
+<<<<<<< HEAD
 .join-button {
 background-color: white;
 border-color: rgb(0, 119, 255);
@@ -52,3 +53,5 @@ color: white;
 .join-button:active{
 opacity: 0.7;
 }
+=======
+>>>>>>> a9e2530894ca937cddcbfe66d41e7a669ff89f13
