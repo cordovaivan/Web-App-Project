@@ -1,4 +1,34 @@
+<<<<<<< HEAD
 .Search-bar {
     display:  ;
   }
   
+=======
+#logo {
+  width: 28px;
+    height: 50rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+
+}
+
+.title {
+  margin-left: 5px;
+  color: pink;
+}
+
+.Search-bar{
+  width: 200px;
+  height: 25px;
+  margin-top: 15px;
+}
+
+#Gif {
+  border: 5px;
+ border-style: solid;
+ border-color: black;
+ border-radius: 20px;
+
+}
+>>>>>>> 5c816067dc0d5dd5cbe642c414fec51d9af6517c
