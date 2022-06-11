@@ -7,3 +7,21 @@
 
 }
 
+.title {
+  margin-left: 5px;
+  color: pink;
+}
+
+.Search-bar{
+  width: 200px;
+  height: 25px;
+  margin-top: 15px;
+}
+
+#Gif {
+  border: 5px;
+ border-style: solid;
+ border-color: black;
+ border-radius: 20px;
+
+}
