@@ -9,7 +9,7 @@
 
 .title {
   margin-left: 5px;
-  color: pink;
+  color: rgb(0, 0, 0);
 }
 
 .Search-bar{
@@ -21,7 +21,7 @@
 #Gif {
   border: 5px;
  border-style: solid;
- border-color: black;
+ border-color: rgb(255, 255, 255);
  border-radius: 20px;
 
 }
