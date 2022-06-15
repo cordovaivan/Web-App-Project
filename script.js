@@ -89,3 +89,15 @@ var displaymusicList = function (artist) {
     artistInputEl.addEventListener('click', formSubmitHandler);
 
 
+    var getTime = function (Time) {
+    var apiTime = 'http://worldtimeapi.org/api/ip';
+
+    fetch(apiTime).then(function(response) {
+        if (response.ok) {
+            response.json().then(function(data) {
+                displayTime(data);
+            });
+        } else {
+            alert('TimeError: ' + response.statusText);
+    }
+}
