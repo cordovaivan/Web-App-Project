@@ -60,8 +60,20 @@ fetch('http://worldtimeapi.org/api/ip', {
 .then(function (data) {
     console.log(data.datetime);
 
+<<<<<<< HEAD
+    fetch(apiTime).then(function(response) {
+        if (response.ok) {
+            response.json().then(function(data) {
+                displayTime(data);
+            });
+        } else {
+            alert('TimeError: ' + response.statusText);
+    }
+};
+=======
     var timelist = document.createElement('div');
     timelist.textContent = data.datetime;
     timeDisplay.appendChild(timelist);
     
 });
+>>>>>>> cefe5923b8b028b2e9a98c03fb285ec26eeb6d1e
