@@ -100,4 +100,4 @@ var displaymusicList = function (artist) {
         } else {
             alert('TimeError: ' + response.statusText);
     }
-}
+};
