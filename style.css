@@ -39,5 +39,12 @@
 #displayTime {
   text-align: center;
   color: black;
+  
 
+}
+
+#songList {
+  color: #3e8ed0;
+  margin-left: 100px;
+  margin-top: 20px;
 }
