@@ -1,5 +1,6 @@
 var yourList = document.getElementById('songList');
 var artistInputEl = document.querySelector('#artistName');
+var timeDisplay = document.getElementById('timeDisplay');
 
 var formSubmitHandler = function (event) {
     event.preventDefault();
@@ -48,17 +49,19 @@ var artistSonglist = function(artist) {
 
 artistInputEl.addEventListener('click', formSubmitHandler);
 
+fetch('http://worldtimeapi.org/api/ip', {
+    method:'GET',
+    credentials:'same-origin',
+    redirect: 'follow',
+})
+.then(function (response) {
+    return response.json();
+})
+.then(function (data) {
+    console.log(data.datetime);
 
-
-    var getTime = function (Time) {
-    var apiTime = 'http://worldtimeapi.org/api/ip';
-
-    fetch(apiTime).then(function(response) {
-        if (response.ok) {
-            response.json().then(function(data) {
-                displayTime(data);
-            });
-        } else {
-            alert('TimeError: ' + response.statusText);
-    }
-}
+    var timelist = document.createElement('div');
+    timelist.textContent = data.datetime;
+    timeDisplay.appendChild(timelist);
+    
+});

@@ -35,3 +35,9 @@
   justify-content: center;
   background-color: white;
 }
+
+#displayTime {
+  text-align: center;
+  color: black;
+
+}
